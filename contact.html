@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Academic Resource Hub</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+        }
+
+        html, body {
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: #f6f0f0; /* Change background color */
+            color: #333;
+        }
+
+        header {
+            background-color: maroon;
+            padding: 40px 20px;
+            text-align: center;
+            color: #fff;
+            position: relative;
+        }
+
+        h1 {
+            font-size: 42px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+
+        .home-icon {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            font-size: 30px;
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .home-icon:hover {
+            color: #d1d1d1;
+        }
+
+        .content {
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            margin: 40px auto;
+            max-width: 750px;
+            text-align: left;
+            flex-grow: 1;
+        }
+
+        .content h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #003366; 
+            font-weight: 600;
+        }
+
+        .content p {
+            font-size: 18px;
+            margin-bottom: 20px;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        .content a {
+            color: #0056b3;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .content a:hover {
+            color: #003366; 
+        }
+
+        footer {
+            background-color: #003366; 
+            color: #fff;
+            padding: 20px 10px;
+            text-align: center;
+            width: 100%;
+            margin-top: auto; /* Ensure footer stays at the bottom */
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .content {
+                margin: 20px 15px;
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 32px;
+            }
+
+            .content h2 {
+                font-size: 26px;
+            }
+
+            .content p {
+                font-size: 16px;
+            }
+
+            .home-icon {
+                font-size: 26px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <a href="homepage.php" class="home-icon" title="Go to Homepage">
+        <i class='bx bx-home'></i> <!-- Home Icon -->
+    </a>
+    <h1>Contact Us</h1>
+</header>
+
+<div class="content">
+    <h2>Get in Touch</h2>
+    <p>If you have any questions, feedback, or inquiries, feel free to reach out to us!</p>
+    <p>You can also contact us via email at <a href="mailto:yoovk18@gmail.com">yoovk18@gmail.com</a>.</p>
+</div>
+
+<footer>
+    <p>&copy; 2024 Academic Resource Hub. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

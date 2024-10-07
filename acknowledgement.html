@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Acknowledgement</title>
+  <link rel="icon" type="image/png" href="logo.png">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: url('veltech.jpg') no-repeat;
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      text-align: center;
+    }
+
+    .wrapper {
+      width: 420px;
+      background: rgba(0, 0, 0, 0.7);
+      border: 2px solid rgba(255, 255, 255, .2);
+      backdrop-filter: blur(9px);
+      border-radius: 12px;
+      padding: 30px 40px;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    .btn-55,
+    .btn-55 *,
+    .btn-55 :after,
+    .btn-55 :before,
+    .btn-55:after,
+    .btn-55:before {
+      border: 0 solid;
+      box-sizing: border-box;
+    }
+    .btn-55 {
+      -webkit-tap-highlight-color: transparent;
+      -webkit-appearance: button;
+      background: linear-gradient(90deg, blue, red);
+      border-radius: 999px;
+      color: #000;
+      display: block;
+      font-weight: 900;
+      overflow: hidden;
+      padding: 1.8rem 5rem;
+      position: relative;
+      text-transform: uppercase;
+    }
+    .btn-55 span {
+      background: #1e293b;
+      border-radius: 999px;
+      color: #fff;
+      display: grid;
+      inset: 5px;
+      place-items: center;
+      position: absolute;
+      transition: background 0.3s;
+    }
+    .btn-55:hover span {
+      background: none;
+    }
+
+    img.logo {
+      width: 100px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Acknowledgement Section -->
+  <div class="wrapper">
+    <img src="logo.png" alt="Institute Logo" class="logo">
+    <h1>Registration Successful!</h1>
+    <p>Thank you for registering. You can now log in to your account.</p>
+    <a href="index.php" class="btn-55"><span>Go to Login</span></a>
+  </div>
+
+</body>
+</html>
